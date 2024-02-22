@@ -1,0 +1,179 @@
+/* general CSS styles */
+body {
+    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.color-section {
+    background-color: #ff4c68;
+    color: #fff
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.download-button {
+    margin: 20px 20px 0 0;
+}
+
+
+/* Title-section */
+
+.title-heading h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Title-image */
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    /*For title img bottom part to hidden   */
+    right: 20%;
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+    /* 3% - top, 15%-left right, 7% - bottom*/
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.3rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 15px;
+    /* top,bottom: 0, left,right: 15px */
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Features Section */
+#features {
+    /*For title img bottom part to hidden   */
+    position: relative;
+    z-index: 1;
+    /*For title img bottom part to hidden but this is not necessary here   */
+}
+
+.feature-box {
+    padding: 5%;
+    /* to give space between 3 boxes */
+
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+#testimonials .testi-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials .carousel-item {
+    padding: 7% 17%;
+    /* it will given crousel button and text alignment */
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+}
+
+.press-img {
+    margin: 20px 20px 50px;
+    /* this will give space between 4 images */
+    width: 15%;
+}
+
+/* pricing */
+#pricing {
+    padding: 100px;
+    /* for inside card contents to center align */
+}
+
+.pricing-column {
+    padding: 3% 2%
+}
+
+/* Call to Action */
+
+#cta h3 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 3%;
+
+}
+
+/* footer section */
+.footer-icon {
+    margin: 30px 20px;
+}
+
+@media (max-width:1026px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 3%;
+        width: 65%;
+    }
+}
